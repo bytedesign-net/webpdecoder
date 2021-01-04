@@ -17,7 +17,7 @@ webpdecoderはwebpファイルを他の画像形式に変換するツールで�
 
 1. webpdecoder(ディレクトリごと)を任意の場所に保存
 2. webpdecoder.ps1のショートカットを任意の場所に作成
-3. ショートカットのリンク先の最初に"-ExecutionPolicy RemoteSigned -File"を先頭に追記
+3. ショートカットのリンク先の最初に"powershell -ExecutionPolicy RemoteSigned -File "を先頭に追記
     例）powershell -ExecutionPolicy RemoteSigned -File C:\Users\(ユーザー名)\Desktop\webp2jpg\webpdecoder.ps1
 
 # Usage
