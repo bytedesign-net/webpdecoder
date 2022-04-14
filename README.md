@@ -35,8 +35,7 @@ webpdecoderはwebpファイルを他の画像形式に変換するツールで�
 
 # Author
 
-* hondaluigi@curledtail
-* https://curl-t.com
+* notec
 
 # License
 
