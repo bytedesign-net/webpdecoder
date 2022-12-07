@@ -73,9 +73,9 @@ if($FolderBrowser.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK){
             #pngファイルを削除
             Remove-Item $pngFile
         }        
-        echo "$filename.webpを$filename.$fileTypeに変換しました。"
+        Write-Output "${filename}.webpを${filename}.${fileType}に変換しました。"
     }
 }
 else {
-    [System.Windows.MessageBox]::Show('フォルダは選択されませんでした')
+    [System.Windows.Forms.MessageBox]::Show('フォルダは選択されませんでした')
 }
